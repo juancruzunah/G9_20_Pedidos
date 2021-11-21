@@ -11,8 +11,8 @@
   header('Access-Control-Allow-Origin: *');
   header('Content-Type:application/json');
 
-  require_once ("../config/conexion.php");
-  require_once ("../models/Pedidos.php");
+  require_once ("../../config/conexion.php");
+  require_once ("../../Pedidos/models/Pedidos.php");
 
   $pedidos=new Pedidos();
 
